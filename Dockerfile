@@ -4,6 +4,7 @@ RUN dnf install -y \
         gcc-toolset-13-gcc \
         gcc-toolset-13-gcc-c++ \
         cmake \
+        ninja-build \
         git \
     && dnf clean all
 
